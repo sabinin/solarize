@@ -123,5 +123,11 @@
 .ba-grid+.ba-grid{
     margin-top: 20px;
 }
-
+/* grid with no gutter */
+.ba-grid.ba-grid-no-gutter{
+    margin-left: 0;
+}
+.ba-grid.ba-grid-no-gutter > [class*="ba-width"]{
+    padding-left: 0;
+}
 /* end grid */

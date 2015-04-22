@@ -6,10 +6,11 @@
     <meta name="description"content="" />
     <meta name="keywords" content=""/>
     <link rel="icon" type="image/png" href="favicon.ico" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/layout.css"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- for IE9 -->
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -20,21 +21,38 @@
         <nav>
             <ul class="ba-container">
                 <li><a href="">Home</a></li>
-                <li><a href="">Dropdown</a></li>
+                <li>
+                    <a href="">Dropdown</a>
+                    <ul class="ba-dropdown">
+                        <li><a href="#">link 1</a></li>
+                        <li><a href="#">link 2</a></li>
+                        <li><a href="#">link 3</a></li>
+                        <li><a href="#">Dropdown</a>
+                            <ul class="ba-dropdown">
+                                <li><a href="#">link 1</a></li>
+                                <li><a href="#">link 2</a></li>
+                                <li><a href="#">link 3</a></li>
+                                <li><a href="#">link 4</a></li>
+                                <li><a href="#">link 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">link 5</a></li>
+                    </ul>
+                </li>
                 <li><a href="">Left sidebar</a></li>
                 <li><a href="">Right sidebar</a></li>
                 <li><a href="">No sidebar</a></li>
             </ul>
         </nav>
             <div class="banner ba-container ba-text-center">
-                <h2 class="logo">solarize</h2>
+                <h2 class="ba-logo">solarize</h2>
                 <p>Design by templated</p>
 
                 <p>PELLENTESQUE PEDE. DONEC PULVINAR ULLAMCORPER METUS. IN EU ODIO AT LECTUS PULVINAR MOLLIS. VESTIBULUM
                     SEM MAGNA.</p>
             </div>
     </header>
-    <section class="ba-row">
+    <section class="ba-row ba-bg-gray">
         <div class="ba-container">
             <div class="ba-grid">
                 <div class="ba-width-1-2">
@@ -60,9 +78,155 @@
     <section class="ba-row ba-bg-primary">
         <div class="ba-container ba-text-center">
             <h1>CRAS VITAE METUS ALINUAM</h1>
-            <p class="ba-byline">Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.</p>
+            <p class="ba-byline ba-padding-bottom">Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.</p>
             <a class="ba-button" href="#">NULLA ALUCTUS ELEIFEND</a>
         </div>
+    </section>
+    <section class="ba-row">
+        <div class="ba-container ">
+            <h1 class="ba-mb-zero ba-text-center">CRAS VITAE METUS ALINUAM</h1>
+            <p class="ba-byline ba-text-center">Pellentesque pede. Donec pulvinar ullamcorper metus. In eu odio at lectus pulvinar mollis. Vestibulum sem magna, elementum vestibulum arcu.</p>
+
+            <div class="ba-grid ba-grid-no-gutter">
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-cogs"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-cogs"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-cogs"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ba-grid ba-grid-no-gutter">
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-wrench"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-wrench"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-wrench"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ba-grid ba-grid-no-gutter">
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-leaf"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-leaf"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+                <div class="ba-width-1-3">
+                    <div class="ba-service">
+                        <i class="fa fa-leaf"></i>
+                        <h4>NULLA LUCTUS ELEIFEND</h4>
+                        <p>In posuere eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula pellentesque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ba-row ba-bg-primary">
+        <div class="ba-container ">
+            <h1 class="ba-mb-zero ba-text-center">CRAS VITAE METUS ALINUAM</h1>
+            <p class="ba-byline ba-text-center">PULVINAR MOLLIS. VESTIBULUM SEM MAGNA, ELEMENTUM VESTIBULUM ARCU</p>
+        </div>
+        <div class="ba-footer-container">
+            <div class="ba-grid ba-grid-no-gutter">
+                <div class="ba-width-1-4 ba-text-center">
+                    <img class="ba-border-circle ba-shadow-circle" src="img/placeholder.png" alt=""/>
+                </div>
+                <div class="ba-width-1-4 ba-text-center">
+                    <img class="ba-border-circle ba-shadow-circle ba-padding-left" src="img/placeholder.png" alt=""/>
+                </div>
+                <div class="ba-width-1-4 ba-text-center">
+                    <img class="ba-border-circle ba-shadow-circle ba-padding-left" src="img/placeholder.png" alt=""/>
+                </div>
+                <div class="ba-width-1-4 ba-text-center">
+                    <img class="ba-border-circle ba-shadow-circle ba-padding-left" src="img/placeholder.png" alt=""/>
+                </div>
+        </div>
+            <div class="ba-grid ba-grid-no-gutter">
+                <div class="ba-width-1-4 ba-text-center ">
+                    <h3 class="ba-text-center">
+                        MOLLY MILLIONS
+                    </h3>
+                    <p class="ba-text-center ba-p-personall">
+                        In posuere eleifend odio quisque semper augue wisi ligula.
+                    </p>
+                </div>
+                <div class="ba-width-1-4 ba-text-center ba-padding-left">
+                    <h3 class="ba-text-center">
+                        HENRY DORSETT CASE
+                    </h3>
+                    <p class="ba-text-center ba-p-personall">
+                        In posuere eleifend odio quisque semper augue wisi ligula.
+                    </p>
+                </div>
+                <div class="ba-width-1-4 ba-text-center ba-padding-left">
+                    <h3 class="ba-text-center">
+                        WILLIS CORTO
+                    </h3>
+                    <p class="ba-text-center ba-p-personall">
+                        In posuere eleifend odio quisque semper augue wisi ligula.
+                    </p>
+                </div>
+                <div class="ba-width-1-4 ba-text-center ba-padding-left">
+                    <h3 class="ba-text-center">
+                        LINDA LEE
+                    </h3>
+                    <p class="ba-text-center ba-p-personall">
+                        In posuere eleifend odio quisque semper augue wisi ligula.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <section class="ba-row footer-box ba-text-center">
+        <div class="ba-container ">
+            <h2 class="ba-mb-zero ba-text-center">CONNECT WITH US</h2>
+            <p class="ba-p-footer ba-text-center">INTEGER SIT AMET PEDE VEL ARCU ALIQUET PRETIUM</p>
+        </div>
+        <div class="ba-footer-container ba-text-center ba-border-bottom">
+            <a href="#"><i class="fa fa-facebook fa-2x  ba-padding"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-2x ba-padding"></i></a>
+            <a href="#"><i class="fa fa-dribbble fa-2x ba-padding"></i></a>
+            <a href="#"><i class="fa fa-google-plus fa-2x ba-padding ba-padding-bottom"></i></a>
+        </div>
+            <p>
+            DESIGN: <a class="ba-footer-link" href="#">TEMPLATED</a> IMAGES: <a class="ba-footer-link" href="#">UNSPLASH (CC0)</a>
+            </p>
     </section>
 </body>
 </html>
